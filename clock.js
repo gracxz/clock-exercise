@@ -1,6 +1,10 @@
 const teens = ['','one','two','three','four','five','six','seven','eight','nine','ten','eleven','twelve','thirteen','fourteen','fiftenn','sixtenn','seventeen','nineteen']
 //teens has the string value corespnding to the array index (except 0)
 
+if(!!process.argv) {//running in node with arguments
+    console.log(convertTime(process.argv[2],process.argv[3]));
+}
+
 function convertTime(hours,minutes) {// main function
     result = '';
     trimmed = trim(hours,minutes);//fixes incorrect inputs
