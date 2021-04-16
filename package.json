@@ -1,0 +1,14 @@
+{
+  "name": "midway",
+  "version": "1.0.0",
+  "description": "clock exercise",
+  "main": "clock.js",
+  "scripts": {
+    "test": "npx jasmine"
+  },
+  "author": "Grace Xiao",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^3.7.0"
+  }
+}
